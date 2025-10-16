@@ -1,0 +1,13 @@
+Invoice #003 - Admin System
+Date: 2025-01-10
+Items: System Configuration License x1 - $0.00
+Tax: $0.00
+Total: $0.00
+
+Payment Method: Internal System
+Shipping Address: N/A - Digital License
+
+This is an internal admin invoice for system configuration.
+No customer data or flags here.
+
+SecureShop Internal Use Only.

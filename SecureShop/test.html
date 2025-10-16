@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureShop - Test Page</title>
+    <link rel="stylesheet" href="styles.css?v=20251002">
+</head>
+<body>
+    <header style="background: linear-gradient(135deg, hsl(217, 91%, 60%), hsl(193, 95%, 68%)); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); position: sticky; top: 0; z-index: 1000; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);">
+        <nav style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem;">
+            <a href="index.php" style="font-size: 1.8rem; font-weight: bold; color: white; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; text-shadow: 0 0 10px rgba(255, 255, 255, 0.3); margin-left: -1rem;">
+                <img src="assets/logo.png?v=20251002" alt="SecureShop Logo" style="width: 40px; height: 40px; object-fit: contain;">
+                <span class="logo-text">SecureShop</span>
+            </a>
+            
+            <ul style="display: flex; list-style: none; gap: 2rem; align-items: center; margin: 0; padding: 0;">
+                <li style="display: flex; align-items: center;"><a href="index.php" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 0 20px rgba(59, 130, 246, 0.3)';" onmouseout="this.style.background=''; this.style.transform=''; this.style.boxShadow='';">Home</a></li>
+                <li style="display: flex; align-items: center;"><a href="products.php" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 0 20px rgba(59, 130, 246, 0.3)';" onmouseout="this.style.background=''; this.style.transform=''; this.style.boxShadow='';">Products</a></li>
+                <li style="display: flex; align-items: center;"><a href="search.php" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 0 20px rgba(59, 130, 246, 0.3)';" onmouseout="this.style.background=''; this.style.transform=''; this.style.boxShadow='';">Search</a></li>
+                <li style="display: flex; align-items: center;"><a href="login.php" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 0 20px rgba(59, 130, 246, 0.3)';" onmouseout="this.style.background=''; this.style.transform=''; this.style.boxShadow='';">Login</a></li>
+                <li style="display: flex; align-items: center;"><a href="register.php" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 0 20px rgba(59, 130, 246, 0.3)';" onmouseout="this.style.background=''; this.style.transform=''; this.style.boxShadow='';">Register</a></li>
+                <li style="display: flex; align-items: center;"><button onclick="toggleTheme()" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 50px; padding: 0.5rem 1rem; color: white; cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); font-size: 1rem;" onmouseover="this.style.background='rgba(255, 255, 255, 0.2)'; this.style.transform='scale(1.05)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='scale(1)';">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Navigation & Styling Test</h1>
+                <p>This page tests the navigation bar CSS and JavaScript functionality.</p>
+                <a href="#" class="btn-gaming glow-on-hover">Test Button</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <h2 style="text-align: center; margin: 3rem 0 2rem;">Test Content</h2>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <h3>Test Product</h3>
+                    <p>Testing product styling and layout.</p>
+                    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">
+                            $99.99
+                        </span>
+                        <button class="btn-gaming" style="font-size: 0.9rem; padding: 0.5rem 1rem;">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="background: var(--card-bg); backdrop-filter: blur(20px); border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 2rem 0; margin-top: 4rem; text-align: center; color: var(--text);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+            <p>&copy; 2025 SecureShop CTF</p>
+        </div>
+    </footer>
+
+    <script src="js/theme.js?v=20251002"></script>
+    <script src="js/carousel.js?v=20251002"></script>
+    <script>
+        console.log("✅ Test page loaded successfully!");
+        console.log("🎨 CSS should be working");
+        console.log("🌙 Theme toggle should work");
+    </script>
+</body>
+</html>

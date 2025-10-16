@@ -1,0 +1,21 @@
+Invoice #003 - Charlie Davis
+Date: 2025-01-22
+Items: Gaming Headset Pro x1 - $199.99
+       RGB Mouse Pad x1 - $29.99
+       Blue Light Glasses x1 - $79.99
+Subtotal: $309.97
+Tax: $24.80
+Shipping: $15.99
+Discount (Student): -$50.26
+Total: $299.50
+
+Payment Method: Debit Card ****5678
+Shipping Address: 789 Pine St, Tech City, TC 54321
+
+Order processed successfully.
+Estimated delivery: 3-5 business days
+
+Support ticket #CH2025-789 (Display issue resolved)
+Customer satisfaction rating: 5/5 stars
+
+Thank you for choosing SecureShop!

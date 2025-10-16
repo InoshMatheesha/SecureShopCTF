@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin.php
+Disallow: /files/
+Disallow: /uploads/
+Disallow: /config.php
+
+# CTF Hint: Check for hidden endpoints
+# Secret admin panel: /admin.php
+# File directory: /files/ (directory traversal?)
+# Invoice system: /download_invoice.php (parameter enumeration?)
+Allow: /

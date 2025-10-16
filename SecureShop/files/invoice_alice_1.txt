@@ -1,0 +1,12 @@
+Invoice #001 - Alice Johnson
+Date: 2025-01-15
+Items: Gaming Laptop Pro x1 - $1299.99
+Tax: $104.00
+Total: $1403.99
+
+Payment Method: Credit Card ****1234
+Shipping Address: 123 Main St, Anytown, AT 12345
+
+THM{idor_invoice_2025}
+
+Thank you for your purchase at SecureShop!

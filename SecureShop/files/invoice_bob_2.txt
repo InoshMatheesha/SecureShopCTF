@@ -1,0 +1,28 @@
+Invoice #002 - Bob Smith  
+Date: 2025-01-20
+Items: Gaming Mouse Ultra x1 - $79.99
+       Mechanical Gaming Keyboard x1 - $149.99
+Tax: $18.40
+Total: $248.38
+
+Payment Method: PayPal (bob.smith.gamer@email.com)
+Shipping Address: 456 Oak Ave, Another City, AC 67890
+
+Special Instructions: Leave package at doorstep if no answer
+
+Order Notes:
+- Customer requested express shipping
+- VIP member discount applied (10% off accessories)
+- Support case #BS2025-456 (Keyboard compatibility confirmed)
+
+CUSTOMER PRIVATE DATA - CONFIDENTIAL
+Security Question Recovery: "First pet's name: Fluffy"
+Account Password Hint: "Gaming setup year + favorite number"
+
+Flag: THM{idor_bob_invoice_access_2025}
+
+Internal Notes: Customer Bob Smith (ID: 2) - Premium member since 2023
+Last login: 2025-01-19 15:42:33
+Shipping preference: Standard (3-5 days)
+
+Thank you for shopping with SecureShop!
