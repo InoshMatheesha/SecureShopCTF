@@ -1,0 +1,9 @@
+# Ignore uploaded files and sensitive files
+/SecureShop/uploads/
+/SecureShop/files/
+/SecureShop/private/
+
+# Node, Python, etc (add as needed)
+node_modules/
+.env
+.DS_Store
