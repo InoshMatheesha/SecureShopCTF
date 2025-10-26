@@ -8,6 +8,8 @@
 
 > ⚠️ The GitHub Pages site is a static HTML preview. For the full PHP application with dynamic features, see the deployment instructions below.
 
+Try this https://moody.gt.tc/
+
 ## 🚀 Features
 
 - Modern gaming-themed UI with light/dark mode
